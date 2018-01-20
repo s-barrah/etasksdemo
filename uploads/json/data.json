@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Sample task",
+        "description": "A sample task of what you can ",
+        "completed": false,
+        "date_created": 1510757080196,
+        "date_due": 1512755080196,
+        "category": "Work"
+    },
+    {
+        "id": 2,
+        "name": "Another test",
+        "description": "just a test",
+        "completed": false,
+        "date_created": 1516409979834,
+        "date_due": 1522339860000,
+        "category": "Work"
+    }
+]

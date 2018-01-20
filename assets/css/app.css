@@ -1,0 +1,81 @@
+@import url('http://fonts.googleapis.com/css?family=Material+Icons');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=font-family:Dosis|Lato');
+@import url('http://fonts.googleapis.com/css?family=Cambay');
+@import url('http://fonts.googleapis.com/css?family=Hind');
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+		
+
+	*, *:before, *:after{
+	  -webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+		  -ms-box-sizing: border-box;
+			  box-sizing: border-box;
+	}	
+	
+	::selection { background-color: #E13300; color: white; }
+	::-moz-selection { background-color: #E13300; color: white; }
+
+	html{
+		position: relative;
+		height:100%;
+		padding: 0; 
+		margin: 0;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		height:100%;
+		font-family: 'Trebuchet MS', Tahoma, sans-serif;	
+	}
+
+	a{
+		background-color: transparent;
+		font-weight: normal;
+		color: #0d0d0d;
+	}
+          
+	a:hover{
+		text-decoration: none;
+	}
+	
+	img.logo{
+		margin-top:-4% !important;
+		
+	}
+	
+			
+input{
+
+	-webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+textarea{
+	resize: none;
+	-webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+	background: #ffffff;
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+textarea:hover,textarea:focus{
+	outline: none;
+  -moz-box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	border:1px solid #ccc !important;
+	
+}
+	
+	
