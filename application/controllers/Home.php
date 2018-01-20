@@ -3,11 +3,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Home extends CI_Controller {
 
+	protected $jsonFile = './uploads/files/json/data.json';
+	
 	/**
 	 * Index Page for this controller.
 	 *
 	 */
-	 
 	public function index()
 	{
 		//assign page title name
@@ -30,7 +31,7 @@ class Home extends CI_Controller {
 	{
 		
 		//JSON file
-		$file = './uploads/json/data.json';
+		$file = $this->jsonFile;
 		
 		// put the contents of the file into a variable
 		//Get data from existing json file
@@ -76,7 +77,7 @@ class Home extends CI_Controller {
 		if($this->form_validation->run()){
 							
 			//JSON file
-			$jsonFile = 'uploads/json/data.json';
+			$jsonFile = $this->jsonFile;
 			
 			// create empty array
 			$arr_data = array(); 
@@ -182,7 +183,7 @@ class Home extends CI_Controller {
 			$id = preg_replace('#[^0-9]#i', '', $task_id); // filter everything but numbers
 							
 			//JSON file
-			$jsonFile = 'uploads/json/data.json';
+			$jsonFile = $this->jsonFile;
 			
 			// put the contents of the file into a variable
 			//Get data from existing json file
@@ -264,7 +265,7 @@ class Home extends CI_Controller {
 			$id = preg_replace('#[^0-9]#i', '', $task_id); // filter everything but numbers
 							
 			//JSON file
-			$jsonFile = 'uploads/json/data.json';
+			$jsonFile = $this->jsonFile;
 			
 			// put the contents of the file into a variable
 			//Get data from existing json file
@@ -342,7 +343,7 @@ class Home extends CI_Controller {
 			$id = preg_replace('#[^0-9]#i', '', $task_id); // filter everything but numbers
 							
 			//JSON file
-			$jsonFile = 'uploads/json/data.json';
+			$jsonFile = $this->jsonFile;
 			
 			// put the contents of the file into a variable
 			//Get data from existing json file
@@ -414,7 +415,7 @@ class Home extends CI_Controller {
 				$id = preg_replace('#[^0-9]#i', '', $task_id); // filter everything but numbers
 			
 				//JSON file
-				$jsonFile = 'uploads/json/data.json';
+				$jsonFile = $this->jsonFile;
 				
 				// put the contents of the file into a variable
 				//Get data from existing json file
