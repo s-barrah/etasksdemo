@@ -1,6 +1,12 @@
 
 $(document).ready(function() {
-	
+	//SIDE NAV ACTIVE ACTIONS
+	$("#home a:contains('HOME')").parent().addClass('active');
+	$("#tasks a:contains('TASKS')").parent().addClass('active');
+		
+	//DEFAULT HIDE LOADING
+	$( "#load" ).hide();
+			
 	//Date time picker
 	$('.datetimepicker').datetimepicker();
 	

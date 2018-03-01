@@ -12,7 +12,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		//assign page title name
-		$data['pageTitle'] = 'Welcome to Khaos Control';
+		$data['pageTitle'] = 'Home Page';
 			
 		//assign page ID
 		$data['pageID'] = 'home';

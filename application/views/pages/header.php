@@ -30,9 +30,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 	<script type="text/javascript">var baseurl = "<?php echo base_url(); ?>";</script>
 </head>
-<body>
+<body id="<?php echo $pageID; ?>">
 
-	
+	<div id="load"></div>
+
 	<!-- -->
 	<div class="">
 		<!-- Static navbar -->
@@ -50,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div id="navbar" class="navbar-collapse collapse">
 				
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="<?php echo base_url();?>">HOME <span class="sr-only">(current)</span></a></li>
+						<li><a href="<?php echo base_url();?>">HOME <span class="sr-only">(current)</span></a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="<?php echo base_url('tasks');?>">TASKS</a></li>

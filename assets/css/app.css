@@ -29,15 +29,6 @@
 		font-family: 'Trebuchet MS', Tahoma, sans-serif;	
 	}
 
-	a{
-		background-color: transparent;
-		font-weight: normal;
-		color: #0d0d0d;
-	}
-          
-	a:hover{
-		text-decoration: none;
-	}
 	
 	img.logo{
 		margin-top:-4% !important;
@@ -78,4 +69,23 @@ textarea:hover,textarea:focus{
 	
 }
 	
+
+#load{ 
+
+height: 100%; 
+width: 100%; 
+
+}
+
+#load {
+    position    : fixed;
+    z-index     : 99999; /* or higher if necessary */
+    top         : 0;
+    left        : 0;
+    overflow    : hidden;
+    text-indent : 100%;
+    font-size   : 0;
+    opacity     : 0.6;
+    background  : #E0E0E0  url('../images/gifs/load.gif') center no-repeat;
+}
 	
